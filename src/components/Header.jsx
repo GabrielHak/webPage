@@ -15,7 +15,7 @@ export default function Header() {
   const [showBasic, setShowBasic] = useState(false);
 
   return (
-    <MDBNavbar expand='lg' light bgColor='dark' className='sticky-top'>
+    <MDBNavbar expand='lg' light bgColor='dark' className='sticky-top' id='header'>
       <MDBContainer>
         <MDBNavbarBrand href='#' className='text-white-50'>Gabriel Hak</MDBNavbarBrand>
 
@@ -31,13 +31,13 @@ export default function Header() {
         <MDBCollapse navbar show={showBasic}>
           <MDBNavbarNav className='mr-auto mb-2 mb-lg-0 justify-content-center'>
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='#' className='text-white-50'>
+              <MDBNavbarLink active aria-current='page' href='#home' className='text-white-50'>
                 Home
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#' className='text-white-50'>
-                My knowledge
+              <MDBNavbarLink href='#know' className='text-white-50'>
+                My knowledges
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>

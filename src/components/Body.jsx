@@ -4,9 +4,10 @@ export default function Body() {
     return (
       <Fragment>
         <div
+        id="home"
         className='p-5 text-center bg-image'
         style={{ backgroundImage: "url('https://images.idgesg.net/images/article/2021/08/sale_301208_article_image-100900756-large.jpg?auto=webp&quality=85,70')",
-        minHeight:'100vh' }}
+        minHeight:'100vh'}}
         >
           <div className='mask' style={{ backgroundColor: 'rgba(50, 50, 50, 0.7)' }}>
             <div className='d-flex justify-content-center align-items-center h-100'>

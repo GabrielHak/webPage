@@ -3,9 +3,9 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 export default function Footer() {
   return (
-    <MDBFooter backgroundColor='light' className='text-center text-lg-left'>
+    <MDBFooter className='text-center text-lg-left'>
 
-      <div className='text-center p-3' style={{ backgroundColor: 'rgb(0,0,0)', color: 'rgb(255,255,255)'}}>
+      <div className='text-center p-3' style={{ backgroundColor: 'rgb(0,0,0)', color: 'rgb(255,255,255)', minHeight:'10vh'}}>
         <MDBContainer className='p-4'>
           <MDBRow>
             <MDBCol lg='6' md='6' sm='12' className='mb-4 mb-md-0'>
